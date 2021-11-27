@@ -1,0 +1,24 @@
+{
+  id: index,
+  showId: 0,
+  lNode: 0,
+  rNode: 0,
+  /**
+  **
+  show: showEnum.unshow,
+  top: 0,
+  bottom: 0,
+  /**
+   * 一共三种情况：
+   * check: 选择
+   * half:半选
+   * uncheck: 未选择
+   */
+  checked: checkEnum.uncheck,
+  allChildren: 0,
+  checkedChildren: 0,
+  selected: false,
+  // 是否打开
+  open: false,
+  data: filterDatas[i],
+}
